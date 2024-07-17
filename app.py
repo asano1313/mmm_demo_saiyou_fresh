@@ -193,7 +193,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.title("デモ")
+st.title("新卒")
 
 st.sidebar.markdown("# ファイルアップロード")
 uploaded_file = st.sidebar.file_uploader(
@@ -477,6 +477,7 @@ if uploaded_file is not None:
         d) 過去の成果や経験（インターンシップ、プロジェクト、アルバイトなど）
         e) 面談者が企業にもたらす可能性のある価値
         f) 推薦者（エージェント）の総合的な評価
+    - 面談者の名前は記載する必要はないです。
 
 17. エントリーシート自己PR文
     - この項目は、面談者自身が書くことを想定して、あなたが代わりに作成してください。
@@ -489,6 +490,7 @@ if uploaded_file is not None:
         f) 自身が企業にもたらす価値
     - 自己PR文は、具体的なエピソードや数値を用いて説得力のある内容にしてください。
     - 文体は丁寧で前向きなトーンを維持し、読み手に強い印象を与えるようにしてください。
+    - 面談者の名前は記載する必要はないです。
 
 ## 出力フォーマット
 
